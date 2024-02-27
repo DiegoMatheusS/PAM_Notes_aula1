@@ -28,7 +28,7 @@
         {
             nome = NameEntry.Text;
             //interpolação
-            GreetingLabel.Text = $"Hello, {nome}";
+            GreetingLabel.Text = $"Hello, {nome}."; 
 
             SemanticScreenReader.Announce(GreetingLabel.Text);
         }
